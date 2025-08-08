@@ -117,8 +117,8 @@ header .info .icon{ float: left; font-size: 30px; }
 
 header .info .right-area{ margin-left: 45px; }
 
-header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #BB470C; color: #fff; 
+header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 5px;
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #faebd7; color: #BB470C; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -129,20 +129,20 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/space-background.jpg); }
+	z-index: 1;background-image: url(../../images/mk_centered.jpg); }
 
-.intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
+.intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: -100; 
 	right: 0; background: rgba(0,0,0, .2); }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	height: 150px; z-index: -1; background: #fff; }
+	height: 150px; z-index: -1; background: #fff0; }
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ padding: 0 20px; margin-top: 100px; margin-bottom: 70px; text-align: left; background: #fff9; position: relative; left: 0px;}
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
 
-.intro .information > li{ display: block; margin: 5px 0; }
+.intro .information > li{ display: block; margin: 5px 0}
 
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #EACCCA; color: #fff; }
